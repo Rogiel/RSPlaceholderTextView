@@ -31,11 +31,11 @@
 /**
  * The placeholder to be used
  */
-@property (strong, nonatomic) NSString* placeholder;
+@property (copy, nonatomic) NSString* placeholder;
 
 /**
  * The placeholder text color
  */
-@property (strong, nonatomic) UIColor*  placeholderTextColor;
+@property (copy, nonatomic) UIColor*  placeholderTextColor;
 
 @end
